@@ -1,0 +1,33 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+	<title>Beamer Remote</title> 
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+	<meta name="apple-mobile-web-app-capable" content="yes" /> 
+	<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+	
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/images/icon-114x114.png">
+  <link rel="apple-touch-icon" href="/images/icon-57x57.png"> 
+	  
+	<link rel="stylesheet" href="/jquery.mobile-1.2.0.min.css" />
+	<script src="/jquery-1.8.2.min.js"></script>
+	<script src="/jquery.mobile-1.2.0.min.js"></script>
+</head> 
+<body> 
+
+<div data-role="page" data-add-back-btn="true">
+  
+  <div data-role="header">
+  	<h1>Beamer Remote</h1>
+  </div><!-- /header -->
+
+  <div data-role="content">	
+  	<%= yield %>
+  </div><!-- /content -->
+
+</div><!-- /page -->
+
+</body>
+</html>

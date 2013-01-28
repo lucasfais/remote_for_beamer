@@ -1,0 +1,11 @@
+<ul data-role="listview" data-inset="true" data-filter="false">
+  <li data-role="list-divider" role="heading">
+      <%= media_folder.display_name %>
+  </li>
+  <% media_folder.medias.each do |media| %>
+    <% data_icon = media.file? ? 'false' : 'arrow-r' %>
+  	<li data-icon="<%= data_icon %>" %>
+  	  <a href="/show?media_path=<%= media.path %>"><%= media.display_name %></a>
+  	</li>
+	<% end %>
+</ul>

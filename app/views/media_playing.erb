@@ -1,0 +1,5 @@
+<h2 style='word-wrap:break-word;'><%= media.display_name %></h2>
+
+The video will start playing on your AppleTV.
+
+<a href="/show?media_path=<%= URI.escape(media.parent.path) %>" data-role="button" data-theme="b">Back to "<%= media.parent.display_name %>"</a>

@@ -3,12 +3,12 @@
 
 ## Overview
 
-**Remote for Beamer** provides a web interface - especially designed to mobile browsers - for navigate through your video files and open them with [Beamer app for OSX](http://beamer-app.com/).
+**Remote for Beamer** provides a web interface - especially designed for mobile browsers - to navigate through your video files and open them with [Beamer app for OSX](http://beamer-app.com/).
 
 ### DISCLAIMER
-*** - This a [POC](http://en.wikipedia.org/wiki/Proof_of_concept) version, ugly code without automated tests!***
+***- This a [POC](http://en.wikipedia.org/wiki/Proof_of_concept) version, ugly code without automated tests!***
 
-*** - Don't use it on an untrusted network. The are many security bugs! ***
+***- Don't use it on an untrusted network. The are many security bugs!***
 
 ### How to use
 
@@ -32,7 +32,7 @@
 
 #### Accessing
 
-* From any browser in the same network: http://<your.host.ip>:4321
+* From any browser in the same network: http://your.host.ip:4321
 
 ### Improvements?
 
